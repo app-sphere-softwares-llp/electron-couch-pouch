@@ -1,5 +1,29 @@
 <div class="container">
-  <h1 class="title">
-    {{ 'PAGES.HOME.TITLE' | translate }}
-  </h1>
+
+  <div class="d-flex">
+    <button class="btn btn-success" (click)="add()">Add</button>
+  </div>
+
+  <div class="container">
+
+    <table class="table table-striped">
+
+      <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Action</th>
+      </tr>
+
+      <tr *ngFor="let tdo of todos">
+        <td>{{ tdo.id }}</td>
+        <td>{{ tdo.doc.title }}</td>
+        <td>
+          <button class="btn badge-danger" (click)="deleteTodo(tdo.doc)">Delete</button>
+        </td>
+      </tr>
+
+    </table>
+
+  </div>
+
 </div>
