@@ -1,18 +1,20 @@
 {
-  "name": "angular-electron",
-  "version": "6.0.1",
-  "description": "Angular 8 with Electron (Typescript + SASS + Hot Reload)",
-  "homepage": "https://github.com/maximegris/angular-electron",
+  "name": "electron-couch-pouch",
+  "version": "0.0.1",
+  "description": "Electron With Couch Db and Pouch Db",
+  "homepage": "https://github.com/app-sphere-softwares-llp/electron-couch-pouch",
   "author": {
-    "name": "Maxime GRIS",
-    "email": "maxime.gris@gmail.com"
+    "name": "Vishal Isharani",
+    "email": "vishal@appsphere.in"
   },
   "keywords": [
     "angular",
     "angular 8",
     "electron",
     "typescript",
-    "sass"
+    "sass",
+    "couchdb",
+    "pouchdb"
   ],
   "main": "main.js",
   "private": true,
